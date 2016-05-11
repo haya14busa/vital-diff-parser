@@ -64,11 +64,3 @@ endfunction
 function! s:_str2nr(str) abort
   return a:str is# '' ? 1 : str2nr(a:str, 10)
 endfunction
-
-" function! s:test() abort
-"   let raw = join(readfile('/home/haya14busa/.vim/.dein/repos/local/haya14busa/vital-diff-parser/,/diff1.diff'), "\n")
-"   let diff_for_each_file = s:parse(raw)
-"   echo PP(diff_for_each_file)
-" endfunction
-" 
-" call s:test()
